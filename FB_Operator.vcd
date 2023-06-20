@@ -1,0 +1,148 @@
+$date
+	Sat Jul 31 22:14:58 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module FB_Operator_tb $end
+$var wire 4 ! S [3:0] $end
+$var wire 1 " Cout $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % Cin $end
+$scope module UUT $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 % Cin $end
+$var wire 1 ( p3 $end
+$var wire 1 ) p2 $end
+$var wire 1 * p1 $end
+$var wire 4 + S [3:0] $end
+$var wire 1 " Cout $end
+$scope module E1 $end
+$var wire 1 * Cout $end
+$var wire 1 , S $end
+$var wire 1 - p1 $end
+$var wire 1 . q1 $end
+$var wire 1 / q2 $end
+$var wire 1 0 x $end
+$var wire 1 1 y $end
+$var wire 1 " Cin $end
+$upscope $end
+$scope module E2 $end
+$var wire 1 * Cin $end
+$var wire 1 ) Cout $end
+$var wire 1 2 S $end
+$var wire 1 3 p1 $end
+$var wire 1 4 q1 $end
+$var wire 1 5 q2 $end
+$var wire 1 6 x $end
+$var wire 1 7 y $end
+$upscope $end
+$scope module E3 $end
+$var wire 1 ) Cin $end
+$var wire 1 ( Cout $end
+$var wire 1 8 S $end
+$var wire 1 9 p1 $end
+$var wire 1 : q1 $end
+$var wire 1 ; q2 $end
+$var wire 1 < x $end
+$var wire 1 = y $end
+$upscope $end
+$scope module E4 $end
+$var wire 1 ( Cin $end
+$var wire 1 " Cout $end
+$var wire 1 > S $end
+$var wire 1 ? p1 $end
+$var wire 1 @ q1 $end
+$var wire 1 A q2 $end
+$var wire 1 B x $end
+$var wire 1 C y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+b0 +
+0*
+0)
+0(
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#4
+b1 !
+b1 +
+1,
+1-
+10
+b1 #
+b1 &
+#8
+12
+b10 !
+b10 +
+0,
+1*
+0-
+1.
+11
+1%
+b1 $
+b1 '
+#12
+1,
+1"
+1A
+1(
+1;
+1)
+02
+15
+08
+b1 !
+b1 +
+0>
+13
+19
+1?
+16
+1<
+1B
+0%
+b1111 #
+b1111 &
+#16
